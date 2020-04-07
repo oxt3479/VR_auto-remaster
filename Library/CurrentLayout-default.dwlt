@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 14
+  controlID: 83
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 958
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: b6330000
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: 30ebffff46ebffff8eebffff8eecffffeeedffff00eeffff12eeffff24eeffff36eeffffacf4ffffb6f4ffffc0f4ffffd6f4ffff5af5ffffd0f5ffffdaf5ffffeaf5ffff86f6ffff10f7ffff4af7ffff4ef8ffff60f8ffff7af8ffff70fbffffdc370000663a0000503b00005c3b00007c3b0000863b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.022139966, y: 0.94955003, z: -9.518177}
+    m_Target: {x: 0.1974797, y: 2.244965, z: -9.073311}
     speed: 2
-    m_Value: {x: 0.022139966, y: 0.94955003, z: -9.518177}
+    m_Value: {x: 0.1974797, y: 2.244965, z: -9.073311}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0532208, y: 0.12052766, z: 0.00030438227, w: -0.9914771}
+    m_Target: {x: -0.3582897, y: 0.028349414, z: -0.0031942558, w: -0.933397}
     speed: 2
-    m_Value: {x: -0.05172277, y: 0.11901662, z: 0.00056280044, w: -0.991544}
+    m_Value: {x: -0.3582153, y: 0.028343529, z: -0.0031935927, w: -0.9332032}
   m_Size:
-    m_Target: 1.2289991
+    m_Target: 9.03638
     speed: 2
-    m_Value: 1.5289991
+    m_Value: 9.03638
   m_Ortho:
     m_Target: 0
     speed: 2

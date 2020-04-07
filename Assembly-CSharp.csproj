@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Camera_Switcher.cs" />
      <None Include="Assets\depth_shader.shader" />
+     <None Include="Assets\disparity_shader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/home/owdt/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
