@@ -46,7 +46,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Camera_Switcher.cs" />
+     <Compile Include="Assets\Nurface\VREyeShaders\Scripts\EyesParameterProvider.cs" />
+     <None Include="Assets\Nurface\VREyeShaders\Shaders\Unlit-EyeSeparationUVs.shader" />
      <None Include="Assets\depth_shader.shader" />
+     <None Include="Assets\Nurface\VREyeShaders\Shaders\VertexLit-EyeSeparation-Vertices.shader" />
+     <None Include="Assets\Nurface\VREyeShaders\Shaders\Unlit-EyeSeparation-Vertices.shader" />
+     <None Include="Assets\Nurface\VREyeShaders\Shaders\Unlit-BlackDefault.shader" />
      <None Include="Assets\disparity_shader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/home/owdt/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -227,6 +232,9 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>/home/owdt/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>/home/owdt/VR_Remaster/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/owdt/Unity/Hub/Editor/2019.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -610,6 +618,22 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{b2765657-cbd9-e4c0-ad5b-f1c7ddf202aa}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{00b7662b-29b2-fb6c-437c-f7f4bc1ec0e7}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{7885699e-f5fb-75d2-805a-5ccb48ef6d28}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{617ca9b6-6537-2ed4-879f-7194b9145535}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{ff10cf3b-77ba-d052-d6bc-2d6cd4b31a96}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
